@@ -1,0 +1,3 @@
+[submodule "tf-faster-rcnn"]
+	path = tf-faster-rcnn
+	url = https://github.com/kometa-triatlon/tf-faster-rcnn-nexar2.git
