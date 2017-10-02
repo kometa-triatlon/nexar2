@@ -4,14 +4,14 @@ ROOT_DIR=/home/pryldm1/work/google-tf-models
 WORK_DIR=`pwd`
 CONFIG=faster_rcnn_inception_resnet_v2_02
 ID=2017-09-21_${CONFIG}
-FOLD=val
+FOLD=test
 
 EXP_DIR=$WORK_DIR/exp/$ID
 
 export PYTHONPATH=$PYTHONPATH:$ROOT_DIR:$ROOT_DIR/slim
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 
-ITER=154108
+ITER=186864
 if [ ! -f $EXP_DIR/frozen_inference_graph.pb ]; then
 
 cd $ROOT_DIR
