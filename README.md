@@ -107,5 +107,5 @@ Then:
 |:------:|:----:|:---------------:|:--------------:|:--------:|
 | faster_rcnn_resnet101_02| 500k | ResNet V2 101 trained on ImageNet | 0.7708 | - |
 | faster_rcnn_inception_resnet_v2_01 | 183k | Faster R-CNN Inception ResNet V2 trained on MSCOCO | 0.8121 | 0.7564 |
-| faster_rcnn_inception_resnet_v2_02 | 186k | Inception ResNet V2 trained on ImageNet | 0.8028 | - |
+| faster_rcnn_inception_resnet_v2_02 | 186k | Inception ResNet V2 trained on ImageNet | 0.8028 | 0.7468 |
 
