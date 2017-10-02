@@ -29,8 +29,7 @@ if [ ! -f $EXP_DIR/frozen_inference_graph.pb ]; then
             --input_type image_tensor \
             --pipeline_config_path $WORK_DIR/configs/$CONFIG.config \
             --trained_checkpoint_prefix $EXP_DIR/train/model.ckpt-$ITER \
-            --output_directory $EXP_DIR \
-            --optimize_graph
+            --output_directory $EXP_DIR
 
     cd $WORK_DIR
 fi
