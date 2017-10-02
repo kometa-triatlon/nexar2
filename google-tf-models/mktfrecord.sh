@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-ROOT_DIR=/home/pryldm1/work/google-tf-models
+ROOT_DIR=/home/pryldm1/work/google-tf-models/research
 export PYTHONPATH=$PYTHONPATH:$ROOT_DIR:$ROOT_DIR/slim
 
 
